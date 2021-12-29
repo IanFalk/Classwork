@@ -1,0 +1,4 @@
+Write a Monte Carlo simulation, in C/C++, of the virtual memory replacement algorithms (LRU, FIFO, and Clock). 
+Iteratively generate one-thousand page number traces (experiments). 
+Each memory trace generated must contain one-thousand page numbers separated into ten regions where each region has a base page number equal to ten times its region number then adjust the trace using a normal, random number distribution with a mean of ten and a standard deviation of two. 
+Test each algorithm for working set sizes from four to twenty. Compute the average (over the one-thousand experiments) number of page faults for each algorithm for each working set size

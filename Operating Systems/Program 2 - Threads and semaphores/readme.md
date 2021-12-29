@@ -1,0 +1,3 @@
+Write a C/C++ program to implement the Dining Philosophers algorithm. This implementation must use Pthreads and either semaphores or mutexes. 
+Have the main thread terminate the philosopher threads after five minutes. The operations of eat and think are to be millisecond sleeps of random duration (25 to 49 milliseconds each). 
+Collect statistics for how many times and how much time each philospher performed eat or think activities.
